@@ -1,0 +1,6 @@
+Place into the iAuto2.0 directory
+. build/env...
+lunch renesas...
+cd bash-4.3
+./configure --host=arm-poky-linux-gnueabi  --without-bash-malloc
+make
